@@ -24,7 +24,7 @@
     	 <!-- Navigation -->
 		  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 		    <div class="container">
-		      <a class="navbar-brand" href="index.php">Billet Simple pour l'Alaska</a>
+		      <a class="navbar-brand" href="http://localhost/PROJET-4-PHP-BLOG-OP/index.php">Billet Simple pour l'Alaska</a>
 		      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 		        Menu
 		        <i class="fas fa-bars"></i>
@@ -32,16 +32,16 @@
 		      <div class="collapse navbar-collapse" id="navbarResponsive">
 		        <ul class="navbar-nav ml-auto">
 		          <li class="nav-item">
-		            <a class="nav-link" href="index.php">Accueil</a>
+		            <a class="nav-link" href="http://localhost/PROJET-4-PHP-BLOG-OP/index.php">Accueil</a>
 		          </li>
 		          <li class="nav-item">
-		            <a class="nav-link" href="view/frontend/about.php">Admin</a>
+		            <a class="nav-link" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/contact.php">About</a>
 		          </li>
 		          <li class="nav-item">
-		            <a class="nav-link" href="view/frontend/listposts.php">Nos articles</a>
+		            <a class="nav-link" href="">Admin</a>
 		          </li>
 		          <li class="nav-item">
-		            <a class="nav-link" href="view/frontend/contact.php">Contact</a>
+		            <a class="nav-link" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/contact.php">Contact</a>
 		          </li>
 		        </ul>
 		      </div>

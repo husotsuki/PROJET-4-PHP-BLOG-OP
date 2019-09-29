@@ -45,7 +45,7 @@ while ($data = $posts->fetch())
 $posts->closeCursor();
 ?>
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#"> Voir Plus &rarr;</a>
+          <a class="btn btn-primary float-right" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/about.php"> L'Auteur &rarr;</a>
         </div>
       </div>
     </div>
