@@ -3,7 +3,7 @@
 <?php ob_start(); ?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('view/frontend/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -31,8 +31,9 @@ while ($post = $posts->fetch())
             <h2 class="post-title">
               <?= (html_entity_decode($post['title'])) ?>
             </h2>
-            <h3 class="post-subtitle">
+            <h3 class="post-meta">
               <?= substr (nl2br(html_entity_decode($post ['content'])), 0, 250) . '...' ?>
+              <br>
               <a href="?controller=PostController&action=showAction&id=<?= $post['id'] ?>" title="Lire le billet" >Lire la suite</a></p>
             
             </h3>
