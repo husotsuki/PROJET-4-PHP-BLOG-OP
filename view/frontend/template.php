@@ -10,13 +10,22 @@
         <!-- Bootstrap core CSS -->
   		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  		<!-- Custom fonts for this template -->
+  		<!-- Custom fonts  -->
 		 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 		 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-		 <!-- Custom styles for this template -->
+		 <!-- Custom styles for this website -->
 		 <link href="css/clean-blog.min.css" rel="stylesheet">
+
+		 <!-- Tinymce -->
+	    <script src="public/js/tinymce/tinymce.min.js"></script>
+	    <script>
+	        tinymce.init({
+	            mode : "textareas",
+	            editor_selector : "mceEditor"
+	        });
+	    </script>
     </head>
         
     <body>
@@ -38,11 +47,29 @@
 		            <a class="nav-link" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/contact.php">About</a>
 		          </li>
 		          <li class="nav-item">
-		            <a class="nav-link" href="">Admin</a>
-		          </li>
-		          <li class="nav-item">
 		            <a class="nav-link" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/contact.php">Contact</a>
 		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="">Admin</a>
+		          </li>
+		          <?php
+                    if(isset($_SESSION) && empty($_SESSION)) {
+                        ?>
+                        <li><a href="?controller=UserController&action=loginAction" title="Se connecter">Connexion</a></li>
+                        <?php
+                    }
+                    ?>
+                    <?php
+                    if(isset($_SESSION) && !empty($_SESSION))
+                    {
+                        ?>
+                        <!--<li><a href="?controller=UserController&action=registerAction" title="S'incrire">Inscription</a></li>-->
+                        <li><a href="?controller=AdminController&action=indexAction" title="Espace d'administration">Administration</a></li>
+                        <li><a href="?controller=UserController&action=logoutAction" title="Se déconnecter">Déconnexion</a></li>
+                        <?php
+                    }
+                    ?>
+		          
 		        </ul>
 		      </div>
 		    </div>
@@ -81,7 +108,7 @@
 		              </a>
 		            </li>
 		          </ul>
-		          <p class="copyright text-muted">Copyright &copy; Fabio LOPES </p>
+		          <p class="copyright text-muted">Copyright &copy; Fabio LOPES pour Openclassroom </p>
 		        </div>
 		      </div>
 		    </div>
