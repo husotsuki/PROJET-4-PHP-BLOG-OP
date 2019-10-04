@@ -37,5 +37,5 @@
 
 <?php $content = ob_get_clean(); ?>
 
-<?php require('templateIndex.php'); ?>
+<?php require('template.php'); ?>
 

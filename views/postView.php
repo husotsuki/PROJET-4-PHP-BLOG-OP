@@ -1,4 +1,4 @@
-<?php $title = 'Dernier chapitre'; ?>
+<?php $title = $post->getTitle(); ?>
 
 <?php ob_start(); ?>
 

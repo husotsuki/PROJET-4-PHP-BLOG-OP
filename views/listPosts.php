@@ -1,4 +1,4 @@
-<?php $title = 'Blog Alaska'; ?>
+<?php $title = 'Liste des chapitres'; ?>
 
 <?php ob_start(); ?>
 
