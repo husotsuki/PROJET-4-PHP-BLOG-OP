@@ -3,7 +3,7 @@
 <?php ob_start(); ?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('view/frontend/img/post-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/post-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -19,7 +19,7 @@
   </header>
 
   <!-- Post Content -->
-  <p><a href="?controller=PostController&action=indexAction">Retour à la liste des billets</a></p>
+  
   <article>
     <div class="container">
       <div class="row">
@@ -59,5 +59,5 @@
 
 <?php $content = ob_get_clean(); ?>
 
-<?php require('templateIndex.php'); ?>
+<?php require('template.php'); ?>
 
