@@ -22,7 +22,7 @@ class UserController {
                     // Vérifie la syntaxe de l'adresse mail
                     if(filter_var($email, FILTER_VALIDATE_EMAIL))
                     {
-                        // Lettres minuscules/majuscules et chifres autorisés seulement
+                        // Lettres minuscules/majuscules et chiffres autorisés seulement
                         if(preg_match('/^[a-zA-Z0-9]+$/', $pseudo))
                         {
                             $newUserManager = new UserManager();
@@ -52,7 +52,7 @@ class UserController {
                             }
                             else
                             {
-                                $newMessage->setError("<p>Ce pseudo est déjà pris !</p>");
+                                $newMessage->setError("<p>Ce pseudo est déjà utilisé !</p>");
                             }
                         }
                         else
@@ -99,7 +99,7 @@ class UserController {
                     // Redirection vers la page souhaitée après connexion
                     header('Location: ?controller=AdminController&action=indexAction');
                 } else {
-                    $newMessage->setError("<p>Vos identifiants ne sont pas bons !</p>");
+                    $newMessage->setError("<p>Identifiants incorrectes !</p>");
                 }
             } else {
                 $newMessage->setError("<p>Tous les champs doivent être rempli !</p>");

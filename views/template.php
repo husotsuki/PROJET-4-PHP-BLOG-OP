@@ -49,6 +49,7 @@
 		          <li class="nav-item">
 		            <a class="nav-link"  href="?controller=PostController&action=indexAction" title="Lire les anciens billets">Les Chapitres </a>
 		          </li>
+		          <!--- Déclaration Cookie en fonction de connecter ou non --->
 		          <?php
                     if(isset($_SESSION) && empty($_SESSION)) {
                         ?>
@@ -57,7 +58,7 @@
                     }
                     ?>
                     <?php
-                    if(isset($_SESSION) && !empty($_SESSION))
+                    if(isset($_SESSION) && !empty($_SESSION)) 
                     {
                         ?>
                         <!--<li><a href="?controller=UserController&action=registerAction" title="S'incrire">Inscription</a></li>-->

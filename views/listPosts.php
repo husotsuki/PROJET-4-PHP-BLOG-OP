@@ -10,7 +10,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Billet Simple pour l'Alaska </h1>
-            <span class="subheading">Retrouvez les Chapitres de cette aventure : </span>
+            <span class="subheading">Retrouvez les autres chapitres de cette aventure : </span>
           </div>
         </div>
       </div>
@@ -46,14 +46,7 @@ while ($post = $posts->fetch())
 $posts->closeCursor();
 ?>
         <hr>
-        <!--- <div class="clearfix">
-          <a class="btn btn-primary float-right" href="http://localhost/PROJET-4-PHP-BLOG-OP/view/frontend/about.php"> L'Auteur &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <hr> ----> 
+        
 
  
 
