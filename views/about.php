@@ -3,14 +3,14 @@
 <?php ob_start(); ?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('public/img/about-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/author.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>About Me</h1>
-            <span class="subheading">This is what I do.</span>
+            <h1>Qui suis-je ?</h1>
+            <span class="subheading">Jean Forteroche</span>
           </div>
         </div>
       </div>
@@ -21,9 +21,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+        <p>
+                À 22 ans, je souhaite enrichir mon imagination et décide donc de quitter la France pour m'exiler quelques temps aux États-Unis. <br>
+                Ce long voyage, mes rencontres, développeront chez moi des projets de roman. <br>
+                En 2003, j'écris mon premier roman : "Le champ du feu", mais c'est le suivant, "Un jour viendra..." qui consacre ma rencontre avec le public. <br>
+                Aujourd'hui, je revient avec un nouveau roman "Billet simple pour l'Alaska",inspiré par mes vacances passées en Alaska. <br>
+                Je décide cette fois de mettre en avant première, mon livre sur le web. <br>
+                Mais pas de panique, une édition est prévue d'ici la fin de l'année 2019 pour ceux et celles qui désirent tourner les pages d'un livre. 
+        </p>      
       </div>
     </div>
   </div>

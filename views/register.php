@@ -5,7 +5,7 @@
 <?php ob_start(); ?>
 
 <!-- Page Header -->
-  <header class="masthead" style="background-image: url('public/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/register.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">

@@ -5,14 +5,14 @@
 <?php ob_start(); ?>
 
 <!-- Page Header -->
-  <header class="masthead" style="background-image: url('public/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/editpost.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Espace Administration </h1>
-            <span class="subheading">Bienvenue dans l'espace protégé </span>
+            <h1> Modification d'un billet </h1>
+            <span class="subheading">Espace Administration</span>
           </div>
         </div>
       </div>
