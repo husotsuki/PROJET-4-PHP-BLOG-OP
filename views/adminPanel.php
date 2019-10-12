@@ -1,11 +1,11 @@
 <!-- Titre de la page -->
-<?php $title = 'Dernier chapitre'; ?>
+<?php $title = 'Administration'; ?>
 
 <!-- Contenu de la page -->
 <?php ob_start(); ?>
 
 <!-- Page Header -->
-  <header class="masthead" style="background-image: url('public/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('public/img/admin.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -23,8 +23,7 @@
 
 
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+    
         <h3><u>Publier un article</u></h3>
 			<br />
 			<br />
