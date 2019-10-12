@@ -25,7 +25,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
          <p> <?php echo html_entity_decode($lastPost['content']) ?></p>
          <br>
-         <em><a href="?controller=PostController&action=showAction&id=<?= $lastPost['id'] ?>" title="Lire les commentaires">  Lire les commentaires</a></em>
+         <a href="?controller=PostController&action=showAction&id=<?= $lastPost['id'] ?>" title="Lire les commentaires">  Lire les commentaires</a>
         </div>
       </div>
     </div>
