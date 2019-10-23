@@ -11,7 +11,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Espace Administration </h1>
+            <h1>Espace Admin </h1>
             <span class="subheading">Bienvenue dans l'espace protégé </span>
           </div>
         </div>
