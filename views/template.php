@@ -49,7 +49,7 @@
 		          <li class="nav-item">
 		            <a class="nav-link"  href="?controller=PostController&action=indexAction" title="Lire les anciens billets">Les Chapitres </a>
 		          </li>
-		          <!--- Déclaration Cookie en fonction de connecter ou non --->
+		          <!--- Déclaration Cookie en fonction de connecter ou non // DEFINIR TEMPS COOKIE AVEC FORTEROCHE DES QUE POSSIBLE  --->
 		          <?php
                     if(isset($_SESSION) && empty($_SESSION)) {
                         ?>
